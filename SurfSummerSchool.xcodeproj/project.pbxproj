@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		E414E3592A78FB2000BE0135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414E3582A78FB2000BE0135 /* AppDelegate.swift */; };
 		E414E35B2A78FB2000BE0135 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414E35A2A78FB2000BE0135 /* SceneDelegate.swift */; };
-		E414E35D2A78FB2000BE0135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414E35C2A78FB2000BE0135 /* ViewController.swift */; };
-		E414E3602A78FB2000BE0135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E414E35E2A78FB2000BE0135 /* Main.storyboard */; };
+		E414E35D2A78FB2000BE0135 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414E35C2A78FB2000BE0135 /* ProfileViewController.swift */; };
 		E414E3622A78FB2100BE0135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E414E3612A78FB2100BE0135 /* Assets.xcassets */; };
 		E414E3652A78FB2100BE0135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E414E3632A78FB2100BE0135 /* LaunchScreen.storyboard */; };
+		E414E36D2A78FBCF00BE0135 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414E36C2A78FBCF00BE0135 /* RootCoordinator.swift */; };
+		E414E3712A7904A600BE0135 /* TitleProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414E3702A7904A600BE0135 /* TitleProfileView.swift */; };
+		E414E3732A7912BE00BE0135 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414E3722A7912BE00BE0135 /* ProfileModel.swift */; };
+		E414E3762A79192D00BE0135 /* SkillItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414E3752A79192D00BE0135 /* SkillItem.swift */; };
+		E414E3782A791D0D00BE0135 /* SkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414E3772A791D0D00BE0135 /* SkillView.swift */; };
+		E414E37C2A7924DC00BE0135 /* SkillHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414E37B2A7924DC00BE0135 /* SkillHeaderView.swift */; };
+		E414E37F2A79548A00BE0135 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414E37E2A79548A00BE0135 /* Collection.swift */; };
+		E414E3812A7956CB00BE0135 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414E3802A7956CB00BE0135 /* ProfileViewModel.swift */; };
+		E414E3832A79635F00BE0135 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414E3822A79635F00BE0135 /* DescriptionView.swift */; };
+		E414E3852A796EC700BE0135 /* SkillsSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414E3842A796EC700BE0135 /* SkillsSections.swift */; };
+		E414E3872A79A22900BE0135 /* ProfileViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414E3862A79A22900BE0135 /* ProfileViewController+Layout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E414E3552A78FB2000BE0135 /* SurfSummerSchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfSummerSchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E414E3582A78FB2000BE0135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E414E35A2A78FB2000BE0135 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E414E35C2A78FB2000BE0135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E414E35F2A78FB2000BE0135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E414E35C2A78FB2000BE0135 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E414E3612A78FB2100BE0135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E414E3642A78FB2100BE0135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E414E3662A78FB2100BE0135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E414E36C2A78FBCF00BE0135 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		E414E3702A7904A600BE0135 /* TitleProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleProfileView.swift; sourceTree = "<group>"; };
+		E414E3722A7912BE00BE0135 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		E414E3752A79192D00BE0135 /* SkillItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillItem.swift; sourceTree = "<group>"; };
+		E414E3772A791D0D00BE0135 /* SkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillView.swift; sourceTree = "<group>"; };
+		E414E37B2A7924DC00BE0135 /* SkillHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillHeaderView.swift; sourceTree = "<group>"; };
+		E414E37E2A79548A00BE0135 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		E414E3802A7956CB00BE0135 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		E414E3822A79635F00BE0135 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		E414E3842A796EC700BE0135 /* SkillsSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsSections.swift; sourceTree = "<group>"; };
+		E414E3862A79A22900BE0135 /* ProfileViewController+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileViewController+Layout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,57 @@
 		E414E3572A78FB2000BE0135 /* SurfSummerSchool */ = {
 			isa = PBXGroup;
 			children = (
+				E414E37D2A79548300BE0135 /* Extensions */,
+				E414E36E2A79048600BE0135 /* Profile */,
 				E414E3582A78FB2000BE0135 /* AppDelegate.swift */,
 				E414E35A2A78FB2000BE0135 /* SceneDelegate.swift */,
-				E414E35C2A78FB2000BE0135 /* ViewController.swift */,
-				E414E35E2A78FB2000BE0135 /* Main.storyboard */,
+				E414E36C2A78FBCF00BE0135 /* RootCoordinator.swift */,
 				E414E3612A78FB2100BE0135 /* Assets.xcassets */,
 				E414E3632A78FB2100BE0135 /* LaunchScreen.storyboard */,
 				E414E3662A78FB2100BE0135 /* Info.plist */,
 			);
 			path = SurfSummerSchool;
+			sourceTree = "<group>";
+		};
+		E414E36E2A79048600BE0135 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E414E3742A79192100BE0135 /* Collection */,
+				E414E36F2A79049500BE0135 /* Cells */,
+				E414E35C2A78FB2000BE0135 /* ProfileViewController.swift */,
+				E414E3862A79A22900BE0135 /* ProfileViewController+Layout.swift */,
+				E414E3802A7956CB00BE0135 /* ProfileViewModel.swift */,
+				E414E3722A7912BE00BE0135 /* ProfileModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E414E36F2A79049500BE0135 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E414E3702A7904A600BE0135 /* TitleProfileView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E414E3742A79192100BE0135 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				E414E3752A79192D00BE0135 /* SkillItem.swift */,
+				E414E3842A796EC700BE0135 /* SkillsSections.swift */,
+				E414E3772A791D0D00BE0135 /* SkillView.swift */,
+				E414E37B2A7924DC00BE0135 /* SkillHeaderView.swift */,
+				E414E3822A79635F00BE0135 /* DescriptionView.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		E414E37D2A79548300BE0135 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E414E37E2A79548A00BE0135 /* Collection.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +189,6 @@
 			files = (
 				E414E3652A78FB2100BE0135 /* LaunchScreen.storyboard in Resources */,
 				E414E3622A78FB2100BE0135 /* Assets.xcassets in Resources */,
-				E414E3602A78FB2000BE0135 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +199,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E414E35D2A78FB2000BE0135 /* ViewController.swift in Sources */,
+				E414E36D2A78FBCF00BE0135 /* RootCoordinator.swift in Sources */,
+				E414E37F2A79548A00BE0135 /* Collection.swift in Sources */,
+				E414E35D2A78FB2000BE0135 /* ProfileViewController.swift in Sources */,
+				E414E3832A79635F00BE0135 /* DescriptionView.swift in Sources */,
+				E414E3872A79A22900BE0135 /* ProfileViewController+Layout.swift in Sources */,
+				E414E3762A79192D00BE0135 /* SkillItem.swift in Sources */,
 				E414E3592A78FB2000BE0135 /* AppDelegate.swift in Sources */,
+				E414E3782A791D0D00BE0135 /* SkillView.swift in Sources */,
+				E414E37C2A7924DC00BE0135 /* SkillHeaderView.swift in Sources */,
+				E414E3812A7956CB00BE0135 /* ProfileViewModel.swift in Sources */,
+				E414E3732A7912BE00BE0135 /* ProfileModel.swift in Sources */,
 				E414E35B2A78FB2000BE0135 /* SceneDelegate.swift in Sources */,
+				E414E3712A7904A600BE0135 /* TitleProfileView.swift in Sources */,
+				E414E3852A796EC700BE0135 /* SkillsSections.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E414E35E2A78FB2000BE0135 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E414E35F2A78FB2000BE0135 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E414E3632A78FB2100BE0135 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +355,6 @@
 				INFOPLIST_FILE = SurfSummerSchool/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +381,6 @@
 				INFOPLIST_FILE = SurfSummerSchool/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
